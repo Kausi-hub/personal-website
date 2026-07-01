@@ -1,0 +1,1 @@
+node_modules/\n.pnp\n.pnp.js\n.nyc_output\ncoverage\n/.next/\n/out/\n/build\n/dist\n.DS_Store\n*.pem\n*.log\nnpm-debug.log*\nyarn-debug.log*\nyarn-error.log*\nlerna-debug.log*\n.cache\n.env.local\n.env.development.local\n.env.test.local\n.env.production.local\n.idea\n.vscode\n*.suo\n*.ntvs*\n*.njsproj\n*.sln\n*.sw?\n.vercel\n
