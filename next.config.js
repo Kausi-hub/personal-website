@@ -1,1 +1,19 @@
-/** @type {import('next').NextConfig} */\nconst withMDX = require('@next/mdx')({\n  extension: /\\.mdx?$/,\n  options: {\n    remarkPlugins: [],\n    rehypePlugins: [],\n  },\n});\n\nconst nextConfig = {\n  pageExtensions: ['ts', 'tsx', 'md', 'mdx'],\n  typescript: {\n    tsconfigPath: './tsconfig.json',\n  },\n  experimental: {\n    optimizePackageImports: ['lucide-react'],\n  },\n};\n\nmodule.exports = withMDX(nextConfig);\n
+/** @type {import('next').NextConfig} */
+
+const withMDX = require("@next/mdx")({
+  extension: /\.mdx?$/,
+  options: {
+    remarkPlugins: [],
+    rehypePlugins: []
+  }
+});
+
+const nextConfig = {
+  pageExtensions: ["ts", "tsx", "md", "mdx"],
+
+  experimental: {
+    optimizePackageImports: ["lucide-react"]
+  }
+};
+
+module.exports = withMDX(nextConfig);

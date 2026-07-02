@@ -1,1 +1,126 @@
-'use client';\n\nimport Link from 'next/link';\nimport { Github, Linkedin, Mail } from 'lucide-react';\n\nexport function Footer() {\n  const currentYear = new Date().getFullYear();\n\n  return (\n    <footer className="border-t border-border bg-card text-card-foreground">\n      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">\n        <div className="grid gap-8 md:grid-cols-3">\n          <div className="space-y-4">\n            <div className="flex items-center gap-2 font-bold text-lg">\n              <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-accent" />\n              Portfolio\n            </div>\n            <p className="text-sm text-muted-foreground">\n              Systems engineer and technical leader showcasing expertise in controls and autonomous motion.\n            </p>\n          </div>\n\n          <div className="space-y-4">\n            <h3 className="font-semibold">Quick Links</h3>\n            <ul className="space-y-2 text-sm text-muted-foreground">\n              <li>\n                <Link href="/about" className="hover:text-foreground transition-colors">\n                  About\n                </Link>\n              </li>\n              <li>\n                <Link href="/programs" className="hover:text-foreground transition-colors">\n                  Programs\n                </Link>\n              </li>\n              <li>\n                <Link href="/blog" className="hover:text-foreground transition-colors">\n                  Blog\n                </Link>\n              </li>\n              <li>\n                <Link href="/contact" className="hover:text-foreground transition-colors">\n                  Contact\n                </Link>\n              </li>\n            </ul>\n          </div>\n\n          <div className="space-y-4">\n            <h3 className="font-semibold">Connect</h3>\n            <div className="flex gap-4">\n              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">\n                <Github className="h-5 w-5" />\n              </a>\n              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">\n                <Linkedin className="h-5 w-5" />\n              </a>\n              <a href="/contact" className="text-muted-foreground hover:text-foreground transition-colors">\n                <Mail className="h-5 w-5" />\n              </a>\n            </div>\n          </div>\n        </div>\n\n        <div className="mt-8 border-t border-border pt-8 text-center text-sm text-muted-foreground">\n          <p>&copy; {currentYear} Personal Portfolio. All rights reserved.</p>\n        </div>\n      </div>\n    </footer>\n  );\n}\n
+'use client';
+
+import Link from 'next/link';
+import { Github, Linkedin, Mail } from 'lucide-react';
+
+export function Footer() {
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <footer className="border-t border-border bg-card text-card-foreground">
+      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="grid gap-10 md:grid-cols-3">
+          {/* Brand Section */}
+          <div className="space-y-4">
+            <div className="flex items-center gap-3">
+              <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-primary to-accent" />
+              <div>
+                <h3 className="text-lg font-bold">Kausalya Singuru</h3>
+                <p className="text-xs text-muted-foreground">
+                  Engineering Leadership Portfolio
+                </p>
+              </div>
+            </div>
+
+            <p className="text-sm leading-relaxed text-muted-foreground">
+              Engineering leader delivering electrified propulsion, systems
+              engineering, controls, integration, and verification &amp;
+              validation solutions from concept through production.
+            </p>
+          </div>
+
+          {/* Navigation */}
+          <div className="space-y-4">
+            <h3 className="font-semibold">Explore</h3>
+
+            <ul className="space-y-2 text-sm text-muted-foreground">
+              <li>
+                <Link
+                  href="/about"
+                  className="transition-colors hover:text-foreground"
+                >
+                  About
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/leadership"
+                  className="transition-colors hover:text-foreground"
+                >
+                  Leadership Portfolio
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/expertise"
+                  className="transition-colors hover:text-foreground"
+                >
+                  Functional Expertise
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/programs"
+                  className="transition-colors hover:text-foreground"
+                >
+                  Programs &amp; Case Studies
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/timeline"
+                  className="transition-colors hover:text-foreground"
+                >
+                  Career Timeline
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/contact"
+                  className="transition-colors hover:text-foreground"
+                >
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Connect */}
+          <div className="space-y-4">
+            <h3 className="font-semibold">Connect</h3>
+
+            <p className="text-sm text-muted-foreground">
+              Connect with me to discuss leadership opportunities, systems
+              engineering, controls, integration, verification &amp; validation,
+              and electrified propulsion development.
+            </p>
+
+            <div className="flex gap-4">
+              <a
+                         aria-label="Contact"
+              >
+                <Mail className="h-5 w-5" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-10 border-t border-border pt-6 text-center text-sm text-muted-foreground">
+          <p>
+            &copy; {currentYear} Kausalya Singuru. All rights reserved.
+          </p>
+
+          <p className="mt-2">
+            Electrified Propulsion • Systems Engineering • Controls • System
+            Integration • Verification &amp; Validation • Engineering Leadership
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}

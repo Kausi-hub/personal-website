@@ -1,1 +1,11 @@
-{\n  "buildCommand": "npm run build",\n  "devCommand": "npm run dev",\n  "installCommand": "npm install",\n  "framework": "nextjs",\n  "env": {\n    "NEXT_PUBLIC_SITE_URL": {\n      "default": "http://localhost:3000"\n    }\n  }\n}\n
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "NEXT_PUBLIC_SITE_URL": {
+      "default": "http://localhost:3000"
+    }
+  }
+}
