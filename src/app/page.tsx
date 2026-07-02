@@ -15,22 +15,22 @@ import { Button } from '@/components/ui/button';
 
 const highlights = [
   {
-    icon: <Users className="h-8 w-8" />,
+    icon: <Users className="h-6 w-6" />,
     value: '20+',
     label: 'Years Experience',
   },
   {
-    icon: <Cog className="h-8 w-8" />,
+    icon: <Cog className="h-6 w-6" />,
     value: '40+',
     label: 'Engineers Led',
   },
   {
-    icon: <Award className="h-8 w-8" />,
+    icon: <Award className="h-6 w-6" />,
     value: '20+',
     label: 'Patents',
   },
   {
-    icon: <Zap className="h-8 w-8" />,
+    icon: <Zap className="h-6 w-6" />,
     value: 'Multiple',
     label: 'Vehicle Launches',
   },
@@ -38,10 +38,13 @@ const highlights = [
 
 const expertise = [
   'Systems Engineering',
-  'Electrified Propulsion',
   'Controls & Calibration',
-  'System Integration',
+  'Embedded Software Development',
+  'Diagnostics Development & Verification',
+  'Mechatronic System Integration',
   'Verification & Validation',
+  'Electrified Propulsion',
+  'Autonomous Systems',
   'Engineering Leadership',
 ];
 
@@ -70,7 +73,7 @@ export default function Home() {
 
           <p className="mx-auto mb-10 max-w-xl text-lg text-muted-foreground sm:text-xl">
             Engineering leader with expertise in Systems Engineering,
-            Electrified Propulsion, Controls Development, System
+            Electrified Propulsion, Autonomous Software, Controls Development, System
             Integration, Calibration, Verification & Validation, and
             Organizational Leadership.
           </p>
@@ -96,11 +99,11 @@ export default function Home() {
 
       {/* Highlights */}
       <section className="section-container py-8">
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {highlights.map((item) => (
             <div
               key={item.label}
-              className="glass-card p-6 text-center"
+              className="glass-card p-4 text-center"
             >
               <div className="mb-4 flex justify-center text-primary">
                 {item.icon}
@@ -254,7 +257,7 @@ export default function Home() {
 
           <p className="mb-8 text-muted-foreground">
             Interested in discussing engineering leadership,
-            systems engineering, electrified propulsion,
+            systems engineering, electrified propulsion, mechatronics development,
             controls, validation, or advanced vehicle programs?
           </p>
 

@@ -30,7 +30,7 @@ const expertiseAreas = [
     title: 'System Integration',
     icon: GitBranch,
     description:
-      'Hardware/software integration, subsystem coordination, issue resolution, release management, and production deployment.',
+      'Mechatronics (Hardware&Software) integration, subsystem coordination, issue resolution, release management, and production deployment.',
   },
   {
     title: 'Verification & Validation',
@@ -57,7 +57,7 @@ export default function ExpertisePage() {
         <p className="mb-12 max-w-4xl text-lg text-muted-foreground">
           More than two decades of experience delivering advanced
           vehicle technologies across systems engineering,
-          electrified propulsion, controls, integration,
+          electrified propulsion, controls, mechatronics integration,
           verification & validation, software development,
           autonomous systems, and engineering leadership.
         </p>
@@ -103,10 +103,8 @@ export default function ExpertisePage() {
                 </h3>
 
                 <ul className="space-y-2 text-muted-foreground">
-                    <li>• Model-Based Development (MBD)</li>
-                    <li>• C Programming</li>
+                    <li>• Model-Basedt (MBD) & Embedded C</li>
                     <li>• ASPICE Process Maturity, ISO 26262 Functional Safety</li>
-                    <li>• Requirements Engineering</li>
                     <li>• Systems Engineering & MBSE</li>
                     <li>• Test-Driven Development</li>
                 </ul>
@@ -118,11 +116,9 @@ export default function ExpertisePage() {
                 </h3>
 
                 <ul className="space-y-2 text-muted-foreground">
-                    <li>• Model-in-the-Loop (MIL)</li>
-                    <li>• Software-in-the-Loop (SIL)</li>
+                    <li>• Model, SOftware, & Hardware-in-the-Loop (MIL, SIL, HIL)</li>
                     <li>• Hardware-in-the-Loop (HIL)</li>
-                    <li>• Closed-Course Vehicle Testing</li>
-                    <li>• On-Road Validation</li>
+                    <li>• Closed-Course & On-Road Vehicle Testing</li>
                     <li>• Release Readiness & Quality Gates</li>
                 </ul>
                 </div>

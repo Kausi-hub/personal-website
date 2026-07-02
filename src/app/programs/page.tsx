@@ -3,27 +3,32 @@ export default function ProgramsPage() {
     {
       title: 'Smartbar, PTU, Low Voltage actuator systems - Scout Motors, STLA',
       description:
-        'Controls implementation, integration, and validation'
+        'Controls implementation, integration, and validation - in Tier-1 capacity'
     },
     {
-      title: 'GM RWD Platform',
+      title: 'Rear/All Wheel Drive System - GM Chevy Equinox & 9B',
       description:
-        'Systems Integration and Calibration leadership supporting production deployment.'
+        'Systems Integration and Calibration leadership supporting production deployment - in Tier-1 capacity'
     },
     {
-      title: 'EDU Platform',
+      title: 'Electric Drive Unit & eBeam - Platform',
       description:
-        'Electrified propulsion integration and controls development.'
+        'Electrified propulsion integration and controls development - Platform Tier 1'
     },
     {
-      title: 'AMG eLSD',
+      title: 'eLimited Slip Differential - AMG',
       description:
-        'Performance controls, integration, and validation.'
+        'Performance controls, integration, and validation - in Tier-1 capacity'
     },
     {
-      title: 'Autonomous Motion Control - General Motors',
+      title: 'General Motors Autonomous Motion Control System',
       description:
-        'Vehicle dynamics & controls integration for autonomous systems.'
+        'Vehicle dynamics & controls integration for autonomous systems - Development at OEM'
+    },
+    {
+      title: 'Maserati & Jeep Wagoneer Cluster Software',
+      description:
+        'Cluster Software development - Development at OEM'
     }
   ];
 
