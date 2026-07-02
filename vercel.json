@@ -5,7 +5,7 @@
   "framework": "nextjs",
   "env": {
     "NEXT_PUBLIC_SITE_URL": {
-      "default": "https://kausi-hub-systems"
+      "default": "personal-website-git-main-ks-syseng.vercel.app"
     }
   }
 }
