@@ -8,9 +8,8 @@ export default function AboutPage() {
 
         <p className="mb-8 text-lg text-muted-foreground">
           Engineering leader with 20+ years of experience delivering
-          Systems Engineering, Controls, Electrified Propulsion,
-          System Integration, Calibration, and Verification &
-          Validation solutions.
+          Systems Engineering, Controls, System Integration, Calibration, and Verification &
+          Validation solutions in the Propulsion & Autonomous domains.
         </p>
 
         <div className="grid gap-6 md:grid-cols-3">
