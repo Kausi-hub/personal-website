@@ -11,7 +11,7 @@ export default function ContactPage() {
 
         <p className="mb-10 text-lg text-muted-foreground">
           Interested in engineering leadership, systems engineering,
-          electrified propulsion, controls, integration, or validation?
+          electrified propulsion, autonomous systems, controls, integration, and validation
           I&apos;d be happy to connect.
         </p>
 

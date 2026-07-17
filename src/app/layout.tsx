@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: '%s | Kausalya Singuru',
   },
   description:
-    'Engineering leader with 20+ years of experience delivering electrified propulsion, systems engineering, controls, system integration, calibration, and verification & validation solutions from concept through production.',
+    'Engineering leader with 20+ years of experience delivering electrified propulsion, autonomous systems, controls, system integration, calibration, and verification & validation solutions from concept through production.',
 
   keywords: [
     'Kausalya Singuru',
