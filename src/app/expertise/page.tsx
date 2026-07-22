@@ -45,7 +45,7 @@ const expertiseAreas = [
       'MIL, SIL, HIL, vehicle testing, validation planning, defect management, requirements verification, and launch validation.',
   },
   {
-    title: 'Diagnostics & Vehicle Systems INtegration',
+    title: 'Diagnostics & Vehicle Systems Integration',
     icon: Users,
     description:
       'Technical leadership, diagnostics definitions & verification, fault injection testing, vehicle integration.',
@@ -74,14 +74,14 @@ export default function ExpertisePage() {
           autonomous systems, and engineering leadership.
         </p>
 
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-4 md:grid-cols-2">
           {expertiseAreas.map((area) => {
             const Icon = area.icon;
 
             return (
               <div
                 key={area.title}
-                className="glass-card p-6"
+                className="glass-card p-4"
               >
                 <div className="mb-4 flex items-center gap-3">
                   <Icon className="h-8 w-8 text-primary" />
@@ -99,16 +99,16 @@ export default function ExpertisePage() {
           })}
         </div>
 
-        <div className="mt-12 glass-card p-6">
+        <div className="mt-12 glass-card p-4">
           <h2 className="mb-6 text-3xl font-bold">
             Core Competencies
           </h2>
-            <div className="mt-12 glass-card p-6">
+            <div className="mt-12 glass-card p-4">
             <h2 className="mb-6 text-3xl font-bold">
                 Tools & Technical Skills
             </h2>
 
-            <div className="grid gap-8 md:grid-cols-2">
+            <div className="grid gap-6 md:grid-cols-2">
                 <div>
                 <h3 className="mb-3 text-xl font-semibold">
                     Engineering & Development
@@ -168,7 +168,7 @@ export default function ExpertisePage() {
             </div>
         </div>
 
-        <div className="mt-12 glass-card p-6">
+        <div className="mt-12 glass-card p-4">
           <h2 className="mb-6 text-3xl font-bold">
             Areas of Industry Impact
           </h2>

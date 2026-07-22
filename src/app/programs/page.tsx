@@ -57,7 +57,7 @@ export default function ProgramsPage() {
         {programs.map((program) => (
           <div
             key={program.title}
-            className="glass-card p-8"
+            className="glass-card p-6"
           >
             <h2 className="mb-2 text-2xl font-bold">
               {program.title}
