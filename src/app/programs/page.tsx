@@ -7,37 +7,37 @@ export default function ProgramsPage() {
         "Controls implementation, integration, and validation - in Tier-1 capacity"
     },
     {
-      year: "2023",
+      year: "2024",
+      title: "Electric Drive Unit & eBeam - Platform",
+      description:
+        "Electrified propulsion integration and controls development - Platform Tier 1"
+    },
+    {
+      year: "2022",
       title: "Rear/All Wheel Drive System - GM Chevy Equinox & 9B",
       description:
         "Systems Integration and Calibration leadership supporting production deployment - in Tier-1 capacity"
     },
     {
       year: "2021",
-      title: "Electric Drive Unit & eBeam - Platform",
-      description:
-        "Electrified propulsion integration and controls development - Platform Tier 1"
-    },
-    {
-      year: "2019",
       title: "eLimited Slip Differential - AMG",
       description:
         "Performance controls, integration, and validation - in Tier-1 capacity"
     },
     {
-      year: "2017",
+      year: "2018",
       title: "General Motors Autonomous Motion Control System",
       description:
         "Vehicle dynamics & controls integration for autonomous systems - Development at OEM"
     },
     {
-      year: "2015",
+      year: "2016",
       title: "General Motors Transmission Control Module - SW Validation",
       description:
         "TCM cybersecurity and diagnostics validation - in Tier-2 capacity"
     },
     {
-      year: "2012",
+      year: "2015",
       title: "Maserati & Jeep Wagoneer Cluster Software",
       description:
         "Cluster Software development - Development at OEM"
@@ -66,7 +66,7 @@ export default function ProgramsPage() {
       <div className="relative mx-auto max-w-7xl">
         <div className="absolute left-1/2 top-0 hidden h-full w-1 -translate-x-1/2 bg-border lg:block" />
 
-        <div className="space-y-12">
+        <div className="space-y-6">
           {programs.map((program, index) => {
             const isLeft = index % 2 === 0;
 
@@ -78,13 +78,12 @@ export default function ProgramsPage() {
                 <div
                   className={`${
                     isLeft
-                      ? "lg:pr-16"
-                      : "lg:pr-16 lg:opacity-0 lg:pointer-events-none"
+                      ? "lg:pr-6": "lg:pr-6 lg:opacity-0 lg:pointer-events-none"
                   }`}
                 >
                   {isLeft && (
-                    <div className="glass-card p-6">
-                      <h2 className="mb-2 text-2xl font-bold">
+                    <div className="glass-card p-4">
+                      <h2 className="mb-1 text-xl font-bold">
                         {program.title}
                       </h2>
                       <p className="text-muted-foreground">
@@ -97,13 +96,12 @@ export default function ProgramsPage() {
                 <div
                   className={`${
                     !isLeft
-                      ? "lg:pl-16"
-                      : "lg:pl-16 lg:opacity-0 lg:pointer-events-none"
+                      ? "lg:pl-6": "lg:pl-6 lg:opacity-0 lg:pointer-events-none"
                   }`}
                 >
                   {!isLeft && (
-                    <div className="glass-card p-6">
-                      <h2 className="mb-2 text-2xl font-bold">
+                    <div className="glass-card p-4">
+                      <h2 className="mb-1 text-xl font-bold">
                         {program.title}
                       </h2>
                       <p className="text-muted-foreground">
@@ -114,17 +112,17 @@ export default function ProgramsPage() {
                 </div>
 
                 <div className="absolute left-1/2 top-1/2 hidden -translate-x-1/2 -translate-y-1/2 lg:flex lg:flex-col lg:items-center">
-                  <div className="z-10 h-6 w-6 rounded-full border-4 border-background bg-primary shadow-lg shadow-primary/40" />
-                  <span className="mt-2 rounded-full bg-background px-3 py-1 text-sm font-semibold shadow-sm">
+                  <div className="z-10 h-4 w-4 rounded-full border-4 border-background bg-primary shadow-lg shadow-primary/40" />
+                  <span className="mt-2 rounded-full bg-background px-2 py-0.5 text-sm font-semibold shadow-sm">
                     {program.year}
                   </span>
                 </div>
 
-                <div className="glass-card p-6 lg:hidden">
+                <div className="glass-card p-4 lg:hidden">
                   <div className="mb-3 text-sm font-semibold text-primary">
                     {program.year}
                   </div>
-                  <h2 className="mb-2 text-2xl font-bold">
+                  <h2 className="mb-1 text-xl font-bold">
                     {program.title}
                   </h2>
                   <p className="text-muted-foreground">
