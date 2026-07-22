@@ -26,9 +26,24 @@ export default function ProgramsPage() {
         'Vehicle dynamics & controls integration for autonomous systems - Development at OEM'
     },
     {
+      title: 'General Motors Tranmission Control Module - SW validation',
+      description:
+        'TCM cybersecurity and diagnostics validation - in Tier-2 capacity'
+    },
+    {
       title: 'Maserati & Jeep Wagoneer Cluster Software',
       description:
         'Cluster Software development - Development at OEM'
+    },
+    {
+      title: 'Memory Seat Module Software - Faurecia',
+      description:
+        'Development of memory seat module software and actuator controls - in consulting capacity'
+    },
+    {
+      title: 'ADAS software development & scenario based testing - General Motors CAV programs',
+      description:
+        'Development of software rapid prototypes and scenario based testing of ADAS features - in consulting capacity'
     }
   ];
 
