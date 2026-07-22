@@ -15,6 +15,12 @@ const expertiseAreas = [
       'Requirements development, system architecture, MBSE, feature decomposition, traceability, verification planning, and cross-functional coordination.',
   },
   {
+    title: 'Engineering Leadership',
+    icon: Users,
+    description:
+      'Technical leadership, organizational development, strategy, budgeting, talent development, and execution of complex vehicle programs.',
+  },
+  {
     title: 'Electrified Propulsion',
     icon: Zap,
     description:
@@ -39,10 +45,16 @@ const expertiseAreas = [
       'MIL, SIL, HIL, vehicle testing, validation planning, defect management, requirements verification, and launch validation.',
   },
   {
-    title: 'Engineering Leadership',
+    title: 'Diagnostics & Vehicle Systems INtegration',
     icon: Users,
     description:
-      'Technical leadership, organizational development, strategy, budgeting, talent development, and execution of complex vehicle programs.',
+      'Technical leadership, diagnostics definitions & verification, fault injection testing, vehicle integration.',
+  },
+  {
+    title: 'Autonomous Systems',
+    icon: Users,
+    description:
+      'Technical leadership, Motion Controls & algorithm development, HIL & vehicle testing.',
   },
 ];
 
@@ -62,14 +74,14 @@ export default function ExpertisePage() {
           autonomous systems, and engineering leadership.
         </p>
 
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-6 md:grid-cols-2">
           {expertiseAreas.map((area) => {
             const Icon = area.icon;
 
             return (
               <div
                 key={area.title}
-                className="glass-card p-8"
+                className="glass-card p-6"
               >
                 <div className="mb-4 flex items-center gap-3">
                   <Icon className="h-8 w-8 text-primary" />
@@ -87,11 +99,11 @@ export default function ExpertisePage() {
           })}
         </div>
 
-        <div className="mt-12 glass-card p-8">
+        <div className="mt-12 glass-card p-6">
           <h2 className="mb-6 text-3xl font-bold">
             Core Competencies
           </h2>
-            <div className="mt-12 glass-card p-8">
+            <div className="mt-12 glass-card p-6">
             <h2 className="mb-6 text-3xl font-bold">
                 Tools & Technical Skills
             </h2>
@@ -156,12 +168,12 @@ export default function ExpertisePage() {
             </div>
         </div>
 
-        <div className="mt-12 glass-card p-8">
+        <div className="mt-12 glass-card p-6">
           <h2 className="mb-6 text-3xl font-bold">
             Areas of Industry Impact
           </h2>
 
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-4 md:grid-cols-3">
             <div>
               <h3 className="mb-2 font-semibold">
                 Vehicle Systems

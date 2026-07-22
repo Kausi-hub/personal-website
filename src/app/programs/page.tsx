@@ -53,7 +53,7 @@ export default function ProgramsPage() {
         Programs & Case Studies
       </h1>
 
-      <div className="grid gap-6">
+      <div className="grid gap-4">
         {programs.map((program) => (
           <div
             key={program.title}
