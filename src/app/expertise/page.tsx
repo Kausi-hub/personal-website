@@ -5,6 +5,8 @@ import {
   TestTube,
   GitBranch,
   Users,
+  Car,
+  CarIcon,
 } from 'lucide-react';
 
 const expertiseAreas = [
@@ -46,13 +48,13 @@ const expertiseAreas = [
   },
   {
     title: 'Diagnostics & Vehicle Systems Integration',
-    icon: Users,
+    icon: CarIcon,
     description:
       'Technical leadership, diagnostics definitions & verification, fault injection testing, vehicle integration.',
   },
   {
     title: 'Autonomous Systems',
-    icon: Users,
+    icon: CarIcon,
     description:
       'Technical leadership, Motion Controls & algorithm development, HIL & vehicle testing.',
   },
